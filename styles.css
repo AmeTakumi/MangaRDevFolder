@@ -1,5 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('WebsiteBackgroundTestPhoto.jpg'); /* Update with your actual image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Optional: Fix the background image during scroll */
+}
+
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8); /* Adjusted for semi-transparent background */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -13,6 +22,9 @@ header h1 {
     padding: 10px;
     width: 60%;
     max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border: none; /* Optional: removes the border */
+    color: #333; /* Dark color for text */
 }
 
 .manga-list {
@@ -25,6 +37,7 @@ header h1 {
 .manga {
     text-align: center;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
 }
 
 .manga img {
@@ -41,6 +54,13 @@ header h1 {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.8); /* Semi-transparent background for readability */
     cursor: pointer;
 }
+
+/* Additional styles for improving legibility and aesthetics */
+body, h1, h2, p {
+    color: #333; /* Dark text for better contrast with light backgrounds */
+}
+
+/* You might need to adjust paths and colors further based on your actual design and background image */
